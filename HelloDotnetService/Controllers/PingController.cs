@@ -1,13 +1,10 @@
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using HelloDotnetService.Models;
-
 namespace HelloDotnetService.Controllers
 {
+    using Microsoft.AspNetCore.Mvc;
+    using Microsoft.Extensions.Logging;
+    using System;
+    using HelloDotnetService.Models;
+
     [ApiController]
     [Route("[controller]")]
     public class PingController : ControllerBase
