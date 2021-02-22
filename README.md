@@ -18,9 +18,8 @@ Simply go to the "Debug" icon (on the left) and click the "play" button (near th
 
 #### Building 
 
-1. Clone the repository into your Go path
-2. In the project directory, first build the project using: **make**
-3. Next, again in the project directory, create a Docker container: **docker build -t {image name}:{tag name} .**
+1. Clone the repository
+2. In the project directory, create a Docker container: **docker build -t {image name}:{tag name} .**
 
 #### Running the Container
 
@@ -30,4 +29,5 @@ From the CLI, run the container: **docker container run -p 8080:8080 -it {image 
 
 ### Swagger Documentation
 
-**Swagger service**: http://localhost:8080/swagger/index.html
+**Swagger service**: http://localhost:8080/swagger/index.html <br>
+**note:** again, the service may run on port 5000 in Visual Studio development-container mode
