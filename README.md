@@ -29,5 +29,5 @@ From the CLI, run the container: **docker container run -p 8080:8080 -it {image 
 
 ### Swagger Documentation
 
-**Swagger service**: http://localhost:8080/swagger/index.html <br>
+**Swagger service**: http://localhost:8080/swagger/index.html <br><br>
 **note:** again, the service may run on port 5000 in Visual Studio development-container mode
