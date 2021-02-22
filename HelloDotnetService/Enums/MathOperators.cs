@@ -1,20 +1,30 @@
 ﻿namespace HelloDotnetService.Enums
 {
 
-    // available math operators
+    /// <summary>
+    /// Available math operators
+    /// </summary>
     public enum MathOperators
     {
 
-        // Add numbers together
+        /// <summary>
+        /// Add numbers together
+        /// </summary>
         Add,
 
-        // Subtract all numbers
+        /// <summary>
+        /// Subtract all numbers
+        /// </summary>
         Subtract,
 
-        // Multiple all numbers together
+        /// <summary>
+        /// Multiple all numbers together
+        /// </summary>
         Multiply,
 
-        // Improper operator
+        /// <summary>
+        /// Improper operator
+        /// </summary>
         ImproperOp
     }
 }
